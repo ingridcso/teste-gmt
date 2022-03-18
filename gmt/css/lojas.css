@@ -1,0 +1,84 @@
+.nossas-lojas {
+    padding: 20px 50px;
+    position: relative;
+}
+.nossas-lojas-1 img {
+    height: 40px;
+}
+.nossas-lojas h1 {
+    color: #53215B;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.lista-lojas {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px 190px 20px 140px;
+}
+.lista-lojas li {
+    border: 1px solid #00A0A3;
+    border-radius: 4px;
+    padding: 20px 10px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    display: grid;
+}
+.lista-lojas li:hover {
+    box-shadow: 0 0 3px #00A0A3 ;
+}
+.lista-lojas a {
+    color: #CF257A;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #7BC3D0;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+.lista-lojas a:hover {
+    box-shadow: 0 0 4px #7BC3D0;
+}
+.lista-lojas h3 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.vivinho-site img {
+    bottom: -16px;
+    position: absolute;
+    padding-left: 20px;
+}
+@media (max-width: 800px) {
+    .nossas-lojas {
+    padding: 10px 30px;
+    }
+    .nossas-lojas img {
+        height: 20px;
+    }
+    .nossas-lojas h1 {
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .lista-lojas {
+        padding-top: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-left: 0px;
+    }
+    .lista-lojas li {
+        padding: 10px 10px;
+        height: 80px;
+        width: 130px;
+    }
+    .lista-lojas h3 {
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .lista-lojas a {
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+}

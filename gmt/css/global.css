@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Officina Serif";
+    src: url("./officina_serif_os_itc_tt/OFFSFOB.ttf");
+  }
+  body {
+      width: 1300px;
+  }
+body, ul , li, img, h1, h2, h3,h4, p,a {
+    margin: 0px;
+}
+* {
+    font-family: "Officina Serif";
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+.cor-1 {
+    color: #F4ECF5;
+}
+.cor-2 {
+    background-color: #7D6088;
+    box-shadow: 0 0 6px #BE74E5;
+}
+.cor-3 {
+    background-color: #c4c4c471;
+    box-shadow: 0 0 6px #C4C4C4;
+}
+.font-1 {
+    font-weight: bold;
+    color: #FFF;
+}
+#logo-gmt {
+    position: absolute;
+}

@@ -1,0 +1,113 @@
+.premium {
+    height: 30px;
+    margin: 0px;
+    background: linear-gradient(92.32deg, #000000 19.76%, #7BC3D0 32.34%, #7D6088 49.58%, #9F2C76 71.49%, #7B3B7D 78.95%, #000000 96.1%);
+    display: block;
+}
+.header {
+    background-color: #53215B;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0px;
+    padding: 10px 90px 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #53215B 0px 0px 1px, #53215B 0px 1px 2px;
+}
+.header-menu {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #ecddee;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.header-menu a:hover {
+    color: #93CDCE;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: 0.3s;
+    background-color: #6A3073;
+}
+.header-menu li {
+    color: #7B3B7D;
+    font-weight: bold;
+}
+.header img{
+    height: 40px;
+}
+.header-menu img {
+    height: 7px;
+    padding-left: 5px;
+}
+.lista-menu {
+    padding-bottom: 5px;
+}
+.ul-menu-1 a{
+    display: block;
+    padding: 5px;
+}
+.ul-menu a{
+    display: block;
+    padding: 5px;
+}
+.ul-menu-1, .ul-menu {
+    display: none;
+    background-color: #F4ECF5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+#btn-mobile {
+    display: none;
+}
+@media (max-width: 800px) {
+    .header{ 
+    background-color: #F4ECF5;
+    height: 40px;
+    margin: 0px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center; 
+    }
+    .header img{
+    height: 30px;
+    }
+    #btn-mobile{
+        display: block;
+    }
+    .header-menu {
+        /*display: none;*/
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+        background-color: #7D6088;
+        z-index: 1000;
+        border-radius: 2px;
+        transition: 0.6s;
+        text-align: center;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    .header-menu a {
+        font-size: 12px;
+    }
+    .header-menu img {
+        display: none;
+    }
+    .lista-menu {
+        padding-bottom: 0px;
+    }
+    #nav.active .header-menu{
+        visibility: visible;
+        overflow-y: auto;
+    }
+}
