@@ -1,0 +1,40 @@
+.conteiner-missao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px 150px;
+}
+.conteiner-missao h1 {
+    font-size: 45px;
+    color: #87648C;
+}
+.lista-missao {
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.lista-missao li {
+    font-size: 14px;
+    justify-items: center;
+    color: #834785;
+    letter-spacing: 1px;
+}
+.lista-missao img {
+    height: 10px;
+}
+@media (max-width: 800px) {
+    .conteiner-missao {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px 30px;
+    }
+    .conteiner-missao h1 {
+        font-size: 24px;
+    }
+    .lista-missao {
+        padding-top: 10px;
+    }
+    .lista-missao li {
+        font-size: 12px;
+    }
+}
